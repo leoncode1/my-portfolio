@@ -1,5 +1,6 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-
+import pokepetImg4 from "../../assets/pokepet-img4.png"; // Adjust the path as necessary
+import portImg from "../../assets/port-img.png"; // Adjust the path as necessary
 export const Projects = () => {
     return(
         <section 
@@ -46,7 +47,7 @@ export const Projects = () => {
                                         hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all"
                             >
                             <img 
-                                src="../src/assets/pokepet-img4.png" // Replace with the actual path to your image
+                                src={pokepetImg4} // Replace with the actual path to your image
                                 alt="PokePet Web App Screenshot" 
                                 className="w-full h-40 object-cover rounded-md mb-4" 
                             />
@@ -87,7 +88,7 @@ export const Projects = () => {
                                         hover:shadow-[0_2px_8px_rgba(59, 130, 246, 0.1)] transition-all"
                             >
                             <img 
-                                src="../src/assets/port-img.png" // Replace with the actual path to your image
+                                src={portImg} // Replace with the actual path to your image
                                 alt="PokePet Web App Screenshot" 
                                 className="w-full h-40 object-cover rounded-md mb-4" 
                             />
