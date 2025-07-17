@@ -40,6 +40,13 @@ export const Projects = () => {
                                 href="#"
                                 className="text-blue-400 hover:text-blue-300 transition-colors my-4"
                                 >View GitHub Repo</a>
+                                <a 
+                                // href="https://leoncode1.github.io/PokePet/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                aria-label="CampusConnect Website"
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                >Visit Website <br></br>(<span className="text-red-400">Adding Soon</span>)</a>
                             </div>
                         </div>
 
@@ -117,7 +124,7 @@ export const Projects = () => {
                                 >View GitHub Repo 
                                 <br></br>(<span className="text-red-400">Adding Soon</span>)</a>
                                 <a 
-                                href="https://leoncode1.github.io/PokePet/"
+                                href="https://leoncode1.github.io/my-portfolio/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 aria-label="PoketPet Website"

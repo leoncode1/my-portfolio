@@ -70,29 +70,31 @@ export const About = () => {
                             <h3 className="text-xl font-bold mb-4">Education</h3>
                             <ul className="list-disc list-inside text-gray-300 font-mono">
                                 <li>
-                                    <strong>BS in Computer Science</strong> - University of Houston-Downtown
+                                    <strong>BS in Computer Science</strong> - University of Houston-Downtown <br></br>(Summa Cum Laude)
                                 </li>
                                 <li>
-                                    Relevant Coursework: Data Structures, Algorithms, Web Development, Database Management Systems
+                                    <strong>Relevant Coursework</strong>: Data Structures & Algorithms, Web Development, Database Systems, Operating Systems
                                 </li>
                             </ul>
                         </div>
 
                         <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
-                            <h3 className="text-xl font-bold font-mono mb-4">Work Experience</h3>
+                            <h3 className="text-xl font-bold font-mono mb-4">Experience</h3>
                             <div className="space-y-4 text-gray-300 font-mono">
                                 <div>
-                                    <h4 className="font-semibold">Software Engineer at ABC</h4>
-                                    <p>
-                                        Developed and maintained web applications using React and Node.js.
-                                    </p>
+                                    <h4 className="font-bold">Undergraduate Researcher, National Science Foundation and CAHSI</h4>
+                                    <ul className="list-disc list-inside text-gray-300 font-mono">
+                                        <li>Collected and analyzed biometric data (facial expression, heart rate, head rotation) from 20 students</li>
+                                        <li>Built a multimodal fusion model using Tensorflow, improving emotion detection accuracy by 20%</li>
+                                        <li>Developed a Python app using the Tkinter framework for real-time monitoring and data labeling across coding tasks</li>
+                                    </ul>
                                 </div>
-
-                                <div>
-                                    <h4 className="font-semibold">Software Engineer at DEF</h4>
-                                    <p>
-                                        Developed and maintained web applications using React and Node.js.
-                                    </p>
+                                <div className="border-t border-gray-700 pt-4">
+                                    <h4 className="font-bold">Software Engineer Intern, Air Force Research Laboratory</h4>
+                                    <ul className="list-disc list-inside text-gray-300 font-mono">
+                                        <li>Implemented Tensorflow and YOLO models for object detection and object tracking.</li>
+                                        <li>Utilized the Nvidia Jetson Nano to integrate the recognition, object-tracking, and decision-making software to expand the concept of an ethical AI system that collects data and returns feedback during simulated operational missions</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>

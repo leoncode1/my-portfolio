@@ -5,7 +5,7 @@
   "homepage": "https://leoncode1.github.io/my-portfolio",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "vite --host localhost",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
